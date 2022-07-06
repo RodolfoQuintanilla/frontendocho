@@ -12,6 +12,7 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color:var(--Very-light-gray);
+    font-size: 15px;
 }
 
 .attribution {
@@ -26,4 +27,22 @@ body {
 .container {
     display: flex;
 
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700px; ;
+}
+
+.cuadro{
+    height: 380px;
+    width: 300px;
+    border: 1px solid red;
+    padding: 30px;
+}
+.container__uno{
+    background-color:  var(--Bright-orange);
+}
+.container__img{
+    color: ;
 }
