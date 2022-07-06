@@ -6,18 +6,19 @@
     --Very-dark-cyan: hsl(179, 100%, 13%);
 
     --white: hsla(0, 0%, 100%, 0.75);
-    --Very-light-gray: hsl(0, 0%, 95%);
+    --Very-light-gray: hsla(0, 0%, 95%, 0.445);
 }
 
 body {
     font-family: 'Lexend Deca', sans-serif;
-    background-color:var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
     font-size: 15px;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .attribution a {
@@ -26,23 +27,58 @@ body {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    color: var(--white);
 
+justify-content: center;
+margin-top: 5%;
 }
 
-h1{
+h1 {
     font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700px; ;
+    font-weight: 700px;
+    ;
+    text-transform: uppercase;
 }
 
-.cuadro{
+.cuadro {
     height: 380px;
     width: 300px;
-    border: 1px solid red;
     padding: 30px;
+
 }
-.container__uno{
-    background-color:  var(--Bright-orange);
+
+.container__uno {
+    background-color: var(--Bright-orange);
 }
-.container__img{
-    color: ;
+
+button {
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.container__uno button {
+
+    background-color: var(--Bright-orange);
+
+}
+
+.container__dos,
+button {
+    background-color: var(--Dark-cyan);
+}
+
+
+.container__tres,
+button {
+    background-color: var(--Very-dark-cyan);
+}
+
+button:hover {
+    background-color: var(--Very-light-gray);
 }
